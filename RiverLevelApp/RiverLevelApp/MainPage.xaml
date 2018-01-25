@@ -10,14 +10,14 @@
         </StackLayout>
 
         <StackLayout x:Name="datacontainer" VerticalOptions="Start" />
-
-
         <StackLayout VerticalOptions="CenterAndExpand">
+            <ListView>
+                
+            </ListView>
             <!-- middle controls -->
         </StackLayout>
             <StackLayout VerticalOptions="End" BackgroundColor="Black">
-                <Label x:Name="status" 
-                        Text="Loading..."  TextColor="White"/>
+                <Label x:Name="status"   Text="Loading..."  TextColor="White"/>
 
         </StackLayout>
     </StackLayout>

@@ -94,19 +94,23 @@ namespace RiverLevelApp
 
             Device.StartTimer(TimeSpan.FromMinutes(1), () =>
             {
-                Task.Run(async () =>
+                // Recude hits as it tends to happen around 23 minutes after. TODO: increase this in flood situation
+                if (DateTime.Now.Minute % 15 == 9)
                 {
-                    try
+                    Task.Run(async () =>
                     {
-                        _stations = _stations ?? await GetStations();
-                        await GetLevels();
-                    }
-                    catch (Exception ex)
-                    {
-                        ReportError(ex);
-                    }
+                        try
+                        {
+                            _stations = _stations ?? await GetStations();
+                            await GetLevels();
+                        }
+                        catch (Exception ex)
+                        {
+                            ReportError(ex);
+                        }
 
-                });
+                    });
+                }
                 return true;
             });
 
