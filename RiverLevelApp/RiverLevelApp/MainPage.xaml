@@ -4,8 +4,23 @@
              xmlns:local="clr-namespace:RiverLevelApp"
              x:Class="RiverLevelApp.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+        <StackLayout VerticalOptions="Start" BackgroundColor="Blue">
+            <Label x:Name="header" TextColor="White" FontSize="Large" Text="" />
+        </StackLayout>
 
+        <StackLayout x:Name="datacontainer" VerticalOptions="Start" />
+
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <!-- middle controls -->
+        </StackLayout>
+            <StackLayout VerticalOptions="End" BackgroundColor="Black">
+                <Label x:Name="status" 
+                        Text="Loading..."  TextColor="White"/>
+
+        </StackLayout>
+    </StackLayout>
+
+    
 </ContentPage>

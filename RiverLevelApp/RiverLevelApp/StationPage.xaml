@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RiverLevelApp.StationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start" BackgroundColor="Blue">
+            <Label x:Name="stationName" Text=""
+                VerticalOptions="Start" 
+             
+                FontSize="Large" 
+                TextColor="White"/>
+        </StackLayout>
+            <StackLayout x:Name="dataContainer"  VerticalOptions="Start" >
+            </StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand">
+                <ListView x:Name="levelData" VerticalOptions="FillAndExpand" IsPullToRefreshEnabled="True">
+
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
