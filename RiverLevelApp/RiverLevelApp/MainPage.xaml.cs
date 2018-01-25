@@ -7,6 +7,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using System.IO;
+using SQLite;
 
 namespace RiverLevelApp
 {
@@ -36,13 +38,18 @@ namespace RiverLevelApp
 
     }
 
+    public class Settings
+    {
+        public string River { get; set; }
+    }
+
 
     public partial class MainPage : ContentPage
 	{
 
         private List<Stations.Item> _stations;
         private List<StationData> data = new List<StationData>();
-        private string _river = "";
+        public string _river;
 
         public void StationClicked(object sender, EventArgs e)
         {
@@ -53,10 +60,16 @@ namespace RiverLevelApp
         public MainPage()
 		{
 			InitializeComponent();
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal),"RiverLevel.db3");
 
+            var db = new SQLiteConnection(dbPath);
+            db.CreateTable<Settings>();
+            if (!db.Table<Settings>().Any())
+            {
+                db.Insert(new Settings() { River = "" });
+            }
+            _river = db.Table<Settings>().First().River;
             header.Text = "River Levels - " + _river;
-
-
             //var serviceConnnection = new RiverLevelApp.RiverLevelServiceConnection();
 
             Task.Run(async () =>
