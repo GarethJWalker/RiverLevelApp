@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="RiverLevelApp.StationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start" BackgroundColor="Blue">
+                <Label Text="{Binding Station.StationName}"
+                VerticalOptions="Start" 
+                FontSize="Large" 
+                TextColor="White"/>
+        </StackLayout>
+            <StackLayout VerticalOptions="Start" >
+            </StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand">
+                <ListView VerticalOptions="FillAndExpand" IsPullToRefreshEnabled="True" ItemsSource="{Binding Station.Levels}" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy, Mode=OneWay}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="0.4*" />
+                                        <ColumnDefinition Width="0.3*" />
+                                        <ColumnDefinition Width="0.25*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" Text="{Binding dateTimeTimeZone, StringFormat='{0:dd/MM/yy HH:mm}'}" />
+                                    <Label Grid.Column="1" Text="{Binding valuecm, StringFormat='{0:0.0cm}'}" HorizontalTextAlignment="End" />
+                                    <Label Grid.Column="2" Text="{Binding changecm, StringFormat='({0:+0.0;-0.0;0.0})'}" HorizontalTextAlignment="End" />
+                                </Grid>
+                            </ViewCell>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+
+                <!--<chart:SfChart x:Name="Chart">
+                    <chart:SfChart.PrimaryAxis>
+                        <chart:CategoryAxis LabelRotationAngle = "-45">
+                            <chart:CategoryAxis.Title>
+                                <chart:ChartAxisTitle Text ="Meetup Date"/>
+                            </chart:CategoryAxis.Title>
+                        </chart:CategoryAxis>
+                    </chart:SfChart.PrimaryAxis>
+                    <chart:SfChart.SecondaryAxis>
+                        <chart:NumericalAxis>
+                            <chart:NumericalAxis.Title>
+                                <chart:ChartAxisTitle Text ="Count"/>
+                            </chart:NumericalAxis.Title>
+                        </chart:NumericalAxis>
+                    </chart:SfChart.SecondaryAxis>
+                </chart:SfChart>-->
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

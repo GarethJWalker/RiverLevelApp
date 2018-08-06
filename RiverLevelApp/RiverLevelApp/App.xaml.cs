@@ -8,7 +8,6 @@ namespace RiverLevelApp
     {
         public App()
         {
-
             InitializeComponent();
             MainPage = new MainPage();
             Application.Current.MainPage = MainPage;

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RiverLevelApp"             
+             x:Class="RiverLevelApp.MainPage"
+             >
+
+    <StackLayout >
+        <StackLayout VerticalOptions="Start" BackgroundColor="Blue">
+            <Label x:Name="header" TextColor="White" FontSize="Large" Text="{Binding Header}" />
+        </StackLayout>
+
+        <StackLayout x:Name="datacontainer" VerticalOptions="Start" />
+        <StackLayout VerticalOptions="FillAndExpand">
+            <ListView ItemsSource="{Binding Stations}"  IsPullToRefreshEnabled="True" RefreshCommand="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy, Mode=OneWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Button Text="{Binding ButtonText}"  TextColor="{Binding ButtonColor}" Command="{Binding Clicked}" ></Button>
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <!-- middle controls -->
+        </StackLayout>
+            <StackLayout VerticalOptions="End" BackgroundColor="Black">
+                <Label x:Name="status"   Text="{Binding Status}"  TextColor="White"/>
+
+        </StackLayout>
+    </StackLayout>
+
+    
+</ContentPage>

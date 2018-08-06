@@ -26,6 +26,186 @@ namespace RiverLevelApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Com.Syncfusion.Charts.Resource.Animation.Fadein = global::RiverLevelApp.Droid.Resource.Animation.Fadein;
+			global::Com.Syncfusion.Charts.Resource.Animation.Fadeout = global::RiverLevelApp.Droid.Resource.Animation.Fadeout;
+			global::Com.Syncfusion.Charts.Resource.Animation.Scale_in = global::RiverLevelApp.Droid.Resource.Animation.Scale_in;
+			global::Com.Syncfusion.Charts.Resource.Animation.Scale_out = global::RiverLevelApp.Droid.Resource.Animation.Scale_out;
+			global::Com.Syncfusion.Charts.Resource.Attribute.colorPalette = global::RiverLevelApp.Droid.Resource.Attribute.colorPalette;
+			global::Com.Syncfusion.Charts.Resource.Attribute.enableTrackball = global::RiverLevelApp.Droid.Resource.Attribute.enableTrackball;
+			global::Com.Syncfusion.Charts.Resource.Attribute.enableZooming = global::RiverLevelApp.Droid.Resource.Attribute.enableZooming;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendDockPosition = global::RiverLevelApp.Droid.Resource.Attribute.legendDockPosition;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendIconHeight = global::RiverLevelApp.Droid.Resource.Attribute.legendIconHeight;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendIconWidth = global::RiverLevelApp.Droid.Resource.Attribute.legendIconWidth;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendItemMarginBottom = global::RiverLevelApp.Droid.Resource.Attribute.legendItemMarginBottom;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendItemMarginLeft = global::RiverLevelApp.Droid.Resource.Attribute.legendItemMarginLeft;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendItemMarginRight = global::RiverLevelApp.Droid.Resource.Attribute.legendItemMarginRight;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendItemMarginTop = global::RiverLevelApp.Droid.Resource.Attribute.legendItemMarginTop;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendOrientation = global::RiverLevelApp.Droid.Resource.Attribute.legendOrientation;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendTitleText = global::RiverLevelApp.Droid.Resource.Attribute.legendTitleText;
+			global::Com.Syncfusion.Charts.Resource.Attribute.legendVisibility = global::RiverLevelApp.Droid.Resource.Attribute.legendVisibility;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titleBackgroundColor = global::RiverLevelApp.Droid.Resource.Attribute.titleBackgroundColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titleColor = global::RiverLevelApp.Droid.Resource.Attribute.titleColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titlePaddingBottom = global::RiverLevelApp.Droid.Resource.Attribute.titlePaddingBottom;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titlePaddingLeft = global::RiverLevelApp.Droid.Resource.Attribute.titlePaddingLeft;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titlePaddingRight = global::RiverLevelApp.Droid.Resource.Attribute.titlePaddingRight;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titlePaddingTop = global::RiverLevelApp.Droid.Resource.Attribute.titlePaddingTop;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titleSize = global::RiverLevelApp.Droid.Resource.Attribute.titleSize;
+			global::Com.Syncfusion.Charts.Resource.Attribute.titleText = global::RiverLevelApp.Droid.Resource.Attribute.titleText;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxis = global::RiverLevelApp.Droid.Resource.Attribute.xAxis;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisLineColor = global::RiverLevelApp.Droid.Resource.Attribute.xAxisLineColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisLineWidth = global::RiverLevelApp.Droid.Resource.Attribute.xAxisLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisMajorGridLineColor = global::RiverLevelApp.Droid.Resource.Attribute.xAxisMajorGridLineColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisMajorGridLineWidth = global::RiverLevelApp.Droid.Resource.Attribute.xAxisMajorGridLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisTitleBackgroundColor = global::RiverLevelApp.Droid.Resource.Attribute.xAxisTitleBackgroundColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisTitleSize = global::RiverLevelApp.Droid.Resource.Attribute.xAxisTitleSize;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisTitleText = global::RiverLevelApp.Droid.Resource.Attribute.xAxisTitleText;
+			global::Com.Syncfusion.Charts.Resource.Attribute.xAxisTitleTextColor = global::RiverLevelApp.Droid.Resource.Attribute.xAxisTitleTextColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxis = global::RiverLevelApp.Droid.Resource.Attribute.yAxis;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisLineColor = global::RiverLevelApp.Droid.Resource.Attribute.yAxisLineColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisLineWidth = global::RiverLevelApp.Droid.Resource.Attribute.yAxisLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisMajorGridLineColor = global::RiverLevelApp.Droid.Resource.Attribute.yAxisMajorGridLineColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisMajorGridLineWidth = global::RiverLevelApp.Droid.Resource.Attribute.yAxisMajorGridLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisTitleBackgroundColor = global::RiverLevelApp.Droid.Resource.Attribute.yAxisTitleBackgroundColor;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisTitleSize = global::RiverLevelApp.Droid.Resource.Attribute.yAxisTitleSize;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisTitleText = global::RiverLevelApp.Droid.Resource.Attribute.yAxisTitleText;
+			global::Com.Syncfusion.Charts.Resource.Attribute.yAxisTitleTextColor = global::RiverLevelApp.Droid.Resource.Attribute.yAxisTitleTextColor;
+			global::Com.Syncfusion.Charts.Resource.Id.annotationLayout = global::RiverLevelApp.Droid.Resource.Id.annotationLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.auto = global::RiverLevelApp.Droid.Resource.Id.auto;
+			global::Com.Syncfusion.Charts.Resource.Id.axisLayout = global::RiverLevelApp.Droid.Resource.Id.axisLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.bottom = global::RiverLevelApp.Droid.Resource.Id.bottom;
+			global::Com.Syncfusion.Charts.Resource.Id.bottom_labels = global::RiverLevelApp.Droid.Resource.Id.bottom_labels;
+			global::Com.Syncfusion.Charts.Resource.Id.category = global::RiverLevelApp.Droid.Resource.Id.category;
+			global::Com.Syncfusion.Charts.Resource.Id.chartBehaviorLayout = global::RiverLevelApp.Droid.Resource.Id.chartBehaviorLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.chartLegendScrollView = global::RiverLevelApp.Droid.Resource.Id.chartLegendScrollView;
+			global::Com.Syncfusion.Charts.Resource.Id.content = global::RiverLevelApp.Droid.Resource.Id.content;
+			global::Com.Syncfusion.Charts.Resource.Id.custom = global::RiverLevelApp.Droid.Resource.Id.custom;
+			global::Com.Syncfusion.Charts.Resource.Id.dataMarkerLayout = global::RiverLevelApp.Droid.Resource.Id.dataMarkerLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.dateTime = global::RiverLevelApp.Droid.Resource.Id.dateTime;
+			global::Com.Syncfusion.Charts.Resource.Id.dateTimeCategory = global::RiverLevelApp.Droid.Resource.Id.dateTimeCategory;
+			global::Com.Syncfusion.Charts.Resource.Id.floating = global::RiverLevelApp.Droid.Resource.Id.floating;
+			global::Com.Syncfusion.Charts.Resource.Id.gone = global::RiverLevelApp.Droid.Resource.Id.gone;
+			global::Com.Syncfusion.Charts.Resource.Id.gridLineLayout = global::RiverLevelApp.Droid.Resource.Id.gridLineLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.gridLinesLayout = global::RiverLevelApp.Droid.Resource.Id.gridLinesLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.horizontal = global::RiverLevelApp.Droid.Resource.Id.horizontal;
+			global::Com.Syncfusion.Charts.Resource.Id.iconView = global::RiverLevelApp.Droid.Resource.Id.iconView;
+			global::Com.Syncfusion.Charts.Resource.Id.label = global::RiverLevelApp.Droid.Resource.Id.label;
+			global::Com.Syncfusion.Charts.Resource.Id.left = global::RiverLevelApp.Droid.Resource.Id.left;
+			global::Com.Syncfusion.Charts.Resource.Id.legendHeader = global::RiverLevelApp.Droid.Resource.Id.legendHeader;
+			global::Com.Syncfusion.Charts.Resource.Id.legendItemsLayout = global::RiverLevelApp.Droid.Resource.Id.legendItemsLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.legendLayout = global::RiverLevelApp.Droid.Resource.Id.legendLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.legendScrollView = global::RiverLevelApp.Droid.Resource.Id.legendScrollView;
+			global::Com.Syncfusion.Charts.Resource.Id.legendViewGroup = global::RiverLevelApp.Droid.Resource.Id.legendViewGroup;
+			global::Com.Syncfusion.Charts.Resource.Id.logarithmic = global::RiverLevelApp.Droid.Resource.Id.logarithmic;
+			global::Com.Syncfusion.Charts.Resource.Id.metro = global::RiverLevelApp.Droid.Resource.Id.metro;
+			global::Com.Syncfusion.Charts.Resource.Id.natural = global::RiverLevelApp.Droid.Resource.Id.natural;
+			global::Com.Syncfusion.Charts.Resource.Id.none = global::RiverLevelApp.Droid.Resource.Id.none;
+			global::Com.Syncfusion.Charts.Resource.Id.numerical = global::RiverLevelApp.Droid.Resource.Id.numerical;
+			global::Com.Syncfusion.Charts.Resource.Id.pineapple = global::RiverLevelApp.Droid.Resource.Id.pineapple;
+			global::Com.Syncfusion.Charts.Resource.Id.right = global::RiverLevelApp.Droid.Resource.Id.right;
+			global::Com.Syncfusion.Charts.Resource.Id.rootLayout = global::RiverLevelApp.Droid.Resource.Id.rootLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.seriesLayout = global::RiverLevelApp.Droid.Resource.Id.seriesLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.stripLinesLayout = global::RiverLevelApp.Droid.Resource.Id.stripLinesLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.technicalIndicatorLayout = global::RiverLevelApp.Droid.Resource.Id.technicalIndicatorLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.thumbLayout = global::RiverLevelApp.Droid.Resource.Id.thumbLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.titleLayout = global::RiverLevelApp.Droid.Resource.Id.titleLayout;
+			global::Com.Syncfusion.Charts.Resource.Id.tomatoSpectrum = global::RiverLevelApp.Droid.Resource.Id.tomatoSpectrum;
+			global::Com.Syncfusion.Charts.Resource.Id.top = global::RiverLevelApp.Droid.Resource.Id.top;
+			global::Com.Syncfusion.Charts.Resource.Id.top_labels = global::RiverLevelApp.Droid.Resource.Id.top_labels;
+			global::Com.Syncfusion.Charts.Resource.Id.vertical = global::RiverLevelApp.Droid.Resource.Id.vertical;
+			global::Com.Syncfusion.Charts.Resource.Id.visible = global::RiverLevelApp.Droid.Resource.Id.visible;
+			global::Com.Syncfusion.Charts.Resource.Layout.chart_layout = global::RiverLevelApp.Droid.Resource.Layout.chart_layout;
+			global::Com.Syncfusion.Charts.Resource.Layout.chart_legend = global::RiverLevelApp.Droid.Resource.Layout.chart_legend;
+			global::Com.Syncfusion.Charts.Resource.Layout.chart_legend_item = global::RiverLevelApp.Droid.Resource.Layout.chart_legend_item;
+			global::Com.Syncfusion.Charts.Resource.Layout.range_navigator_layout = global::RiverLevelApp.Droid.Resource.Layout.range_navigator_layout;
+			global::Com.Syncfusion.Charts.Resource.String.q = global::RiverLevelApp.Droid.Resource.String.q;
+			global::Com.Syncfusion.Charts.Resource.String.quarter = global::RiverLevelApp.Droid.Resource.String.quarter;
+			global::Com.Syncfusion.Charts.Resource.String.sfchart_close_label = global::RiverLevelApp.Droid.Resource.String.sfchart_close_label;
+			global::Com.Syncfusion.Charts.Resource.String.sfchart_high_label = global::RiverLevelApp.Droid.Resource.String.sfchart_high_label;
+			global::Com.Syncfusion.Charts.Resource.String.sfchart_low_label = global::RiverLevelApp.Droid.Resource.String.sfchart_low_label;
+			global::Com.Syncfusion.Charts.Resource.String.sfchart_open_label = global::RiverLevelApp.Droid.Resource.String.sfchart_open_label;
+			global::Com.Syncfusion.Charts.Resource.String.sfchart_others_label = global::RiverLevelApp.Droid.Resource.String.sfchart_others_label;
+			global::Com.Syncfusion.Charts.Resource.String.w = global::RiverLevelApp.Droid.Resource.String.w;
+			global::Com.Syncfusion.Charts.Resource.String.week = global::RiverLevelApp.Droid.Resource.String.week;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart = global::RiverLevelApp.Droid.Resource.Styleable.SfChart;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_colorPalette = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_colorPalette;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_enableTrackball = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_enableTrackball;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_enableZooming = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_enableZooming;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendDockPosition = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendDockPosition;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendIconHeight = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendIconHeight;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendIconWidth = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendIconWidth;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendItemMarginBottom = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendItemMarginBottom;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendItemMarginLeft = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendItemMarginLeft;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendItemMarginRight = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendItemMarginRight;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendItemMarginTop = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendItemMarginTop;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendOrientation = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendOrientation;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendTitleText = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendTitleText;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_legendVisibility = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_legendVisibility;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titleBackgroundColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titleBackgroundColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titleColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titleColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titlePaddingBottom = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titlePaddingBottom;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titlePaddingLeft = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titlePaddingLeft;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titlePaddingRight = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titlePaddingRight;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titlePaddingTop = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titlePaddingTop;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titleSize = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titleSize;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_titleText = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_titleText;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxis = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxis;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisLineColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisLineColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisLineWidth = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisMajorGridLineColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisMajorGridLineColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisMajorGridLineWidth = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisMajorGridLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisTitleBackgroundColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisTitleBackgroundColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisTitleSize = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisTitleSize;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisTitleText = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisTitleText;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_xAxisTitleTextColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_xAxisTitleTextColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxis = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxis;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisLineColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisLineColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisLineWidth = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisMajorGridLineColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisMajorGridLineColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisMajorGridLineWidth = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisMajorGridLineWidth;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisTitleBackgroundColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisTitleBackgroundColor;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisTitleSize = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisTitleSize;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisTitleText = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisTitleText;
+			global::Com.Syncfusion.Charts.Resource.Styleable.SfChart_yAxisTitleTextColor = global::RiverLevelApp.Droid.Resource.Styleable.SfChart_yAxisTitleTextColor;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Fadein = global::RiverLevelApp.Droid.Resource.Animation.Fadein;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Fadeout = global::RiverLevelApp.Droid.Resource.Animation.Fadeout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Scale_in = global::RiverLevelApp.Droid.Resource.Animation.Scale_in;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Scale_out = global::RiverLevelApp.Droid.Resource.Animation.Scale_out;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.annotationLayout = global::RiverLevelApp.Droid.Resource.Id.annotationLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.axisLayout = global::RiverLevelApp.Droid.Resource.Id.axisLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.bottom_labels = global::RiverLevelApp.Droid.Resource.Id.bottom_labels;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chartBehaviorLayout = global::RiverLevelApp.Droid.Resource.Id.chartBehaviorLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chartLegendScrollView = global::RiverLevelApp.Droid.Resource.Id.chartLegendScrollView;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.content = global::RiverLevelApp.Droid.Resource.Id.content;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.dataMarkerLayout = global::RiverLevelApp.Droid.Resource.Id.dataMarkerLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLineLayout = global::RiverLevelApp.Droid.Resource.Id.gridLineLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLinesLayout = global::RiverLevelApp.Droid.Resource.Id.gridLinesLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.iconView = global::RiverLevelApp.Droid.Resource.Id.iconView;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.label = global::RiverLevelApp.Droid.Resource.Id.label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendHeader = global::RiverLevelApp.Droid.Resource.Id.legendHeader;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendItemsLayout = global::RiverLevelApp.Droid.Resource.Id.legendItemsLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendLayout = global::RiverLevelApp.Droid.Resource.Id.legendLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendScrollView = global::RiverLevelApp.Droid.Resource.Id.legendScrollView;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendViewGroup = global::RiverLevelApp.Droid.Resource.Id.legendViewGroup;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.rootLayout = global::RiverLevelApp.Droid.Resource.Id.rootLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.seriesLayout = global::RiverLevelApp.Droid.Resource.Id.seriesLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.stripLinesLayout = global::RiverLevelApp.Droid.Resource.Id.stripLinesLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.technicalIndicatorLayout = global::RiverLevelApp.Droid.Resource.Id.technicalIndicatorLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.thumbLayout = global::RiverLevelApp.Droid.Resource.Id.thumbLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.titleLayout = global::RiverLevelApp.Droid.Resource.Id.titleLayout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.top_labels = global::RiverLevelApp.Droid.Resource.Id.top_labels;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_layout = global::RiverLevelApp.Droid.Resource.Layout.chart_layout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend = global::RiverLevelApp.Droid.Resource.Layout.chart_legend;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend_item = global::RiverLevelApp.Droid.Resource.Layout.chart_legend_item;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.range_navigator_layout = global::RiverLevelApp.Droid.Resource.Layout.range_navigator_layout;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.q = global::RiverLevelApp.Droid.Resource.String.q;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.quarter = global::RiverLevelApp.Droid.Resource.String.quarter;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_close_label = global::RiverLevelApp.Droid.Resource.String.sfchart_close_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_high_label = global::RiverLevelApp.Droid.Resource.String.sfchart_high_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_low_label = global::RiverLevelApp.Droid.Resource.String.sfchart_low_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_open_label = global::RiverLevelApp.Droid.Resource.String.sfchart_open_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_others_label = global::RiverLevelApp.Droid.Resource.String.sfchart_others_label;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.w = global::RiverLevelApp.Droid.Resource.String.w;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.String.week = global::RiverLevelApp.Droid.Resource.String.week;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::RiverLevelApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -79,6 +259,18 @@ namespace RiverLevelApp.Droid
 			
 			// aapt resource value: 0x7f04000f
 			public const int design_snackbar_out = 2130968591;
+			
+			// aapt resource value: 0x7f040010
+			public const int Fadein = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int Fadeout = 2130968593;
+			
+			// aapt resource value: 0x7f040012
+			public const int Scale_in = 2130968594;
+			
+			// aapt resource value: 0x7f040013
+			public const int Scale_out = 2130968595;
 			
 			static Animation()
 			{
@@ -379,6 +571,9 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f01009f
 			public const int colorControlNormal = 2130772127;
 			
+			// aapt resource value: 0x7f010179
+			public const int colorPalette = 2130772345;
+			
 			// aapt resource value: 0x7f01009c
 			public const int colorPrimary = 2130772124;
 			
@@ -492,6 +687,12 @@ namespace RiverLevelApp.Droid
 			
 			// aapt resource value: 0x7f010038
 			public const int elevation = 2130772024;
+			
+			// aapt resource value: 0x7f01017b
+			public const int enableTrackball = 2130772347;
+			
+			// aapt resource value: 0x7f01017a
+			public const int enableZooming = 2130772346;
 			
 			// aapt resource value: 0x7f010149
 			public const int errorEnabled = 2130772297;
@@ -639,6 +840,36 @@ namespace RiverLevelApp.Droid
 			
 			// aapt resource value: 0x7f010107
 			public const int layout_scrollInterpolator = 2130772231;
+			
+			// aapt resource value: 0x7f01016f
+			public const int legendDockPosition = 2130772335;
+			
+			// aapt resource value: 0x7f010169
+			public const int legendIconHeight = 2130772329;
+			
+			// aapt resource value: 0x7f01016a
+			public const int legendIconWidth = 2130772330;
+			
+			// aapt resource value: 0x7f01016b
+			public const int legendItemMarginBottom = 2130772331;
+			
+			// aapt resource value: 0x7f01016c
+			public const int legendItemMarginLeft = 2130772332;
+			
+			// aapt resource value: 0x7f01016d
+			public const int legendItemMarginRight = 2130772333;
+			
+			// aapt resource value: 0x7f01016e
+			public const int legendItemMarginTop = 2130772334;
+			
+			// aapt resource value: 0x7f010170
+			public const int legendOrientation = 2130772336;
+			
+			// aapt resource value: 0x7f010168
+			public const int legendTitleText = 2130772328;
+			
+			// aapt resource value: 0x7f010167
+			public const int legendVisibility = 2130772327;
 			
 			// aapt resource value: 0x7f01009b
 			public const int listChoiceBackgroundIndicator = 2130772123;
@@ -1048,6 +1279,12 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f01001f
 			public const int title = 2130771999;
 			
+			// aapt resource value: 0x7f010174
+			public const int titleBackgroundColor = 2130772340;
+			
+			// aapt resource value: 0x7f010172
+			public const int titleColor = 2130772338;
+			
 			// aapt resource value: 0x7f010119
 			public const int titleEnabled = 2130772249;
 			
@@ -1068,6 +1305,24 @@ namespace RiverLevelApp.Droid
 			
 			// aapt resource value: 0x7f0100f4
 			public const int titleMargins = 2130772212;
+			
+			// aapt resource value: 0x7f010178
+			public const int titlePaddingBottom = 2130772344;
+			
+			// aapt resource value: 0x7f010175
+			public const int titlePaddingLeft = 2130772341;
+			
+			// aapt resource value: 0x7f010176
+			public const int titlePaddingRight = 2130772342;
+			
+			// aapt resource value: 0x7f010177
+			public const int titlePaddingTop = 2130772343;
+			
+			// aapt resource value: 0x7f010173
+			public const int titleSize = 2130772339;
+			
+			// aapt resource value: 0x7f010171
+			public const int titleText = 2130772337;
 			
 			// aapt resource value: 0x7f0100ed
 			public const int titleTextAppearance = 2130772205;
@@ -1131,6 +1386,60 @@ namespace RiverLevelApp.Droid
 			
 			// aapt resource value: 0x7f01004b
 			public const int windowNoTitle = 2130772043;
+			
+			// aapt resource value: 0x7f010155
+			public const int xAxis = 2130772309;
+			
+			// aapt resource value: 0x7f010161
+			public const int xAxisLineColor = 2130772321;
+			
+			// aapt resource value: 0x7f010162
+			public const int xAxisLineWidth = 2130772322;
+			
+			// aapt resource value: 0x7f01015f
+			public const int xAxisMajorGridLineColor = 2130772319;
+			
+			// aapt resource value: 0x7f010160
+			public const int xAxisMajorGridLineWidth = 2130772320;
+			
+			// aapt resource value: 0x7f01015a
+			public const int xAxisTitleBackgroundColor = 2130772314;
+			
+			// aapt resource value: 0x7f010159
+			public const int xAxisTitleSize = 2130772313;
+			
+			// aapt resource value: 0x7f010157
+			public const int xAxisTitleText = 2130772311;
+			
+			// aapt resource value: 0x7f010158
+			public const int xAxisTitleTextColor = 2130772312;
+			
+			// aapt resource value: 0x7f010156
+			public const int yAxis = 2130772310;
+			
+			// aapt resource value: 0x7f010165
+			public const int yAxisLineColor = 2130772325;
+			
+			// aapt resource value: 0x7f010166
+			public const int yAxisLineWidth = 2130772326;
+			
+			// aapt resource value: 0x7f010163
+			public const int yAxisMajorGridLineColor = 2130772323;
+			
+			// aapt resource value: 0x7f010164
+			public const int yAxisMajorGridLineWidth = 2130772324;
+			
+			// aapt resource value: 0x7f01015e
+			public const int yAxisTitleBackgroundColor = 2130772318;
+			
+			// aapt resource value: 0x7f01015d
+			public const int yAxisTitleSize = 2130772317;
+			
+			// aapt resource value: 0x7f01015b
+			public const int yAxisTitleText = 2130772315;
+			
+			// aapt resource value: 0x7f01015c
+			public const int yAxisTitleTextColor = 2130772316;
 			
 			static Attribute()
 			{
@@ -2784,41 +3093,41 @@ namespace RiverLevelApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08009e
-			public const int action0 = 2131230878;
+			// aapt resource value: 0x7f0800be
+			public const int action0 = 2131230910;
 			
-			// aapt resource value: 0x7f080064
-			public const int action_bar = 2131230820;
+			// aapt resource value: 0x7f080072
+			public const int action_bar = 2131230834;
 			
 			// aapt resource value: 0x7f080001
 			public const int action_bar_activity_content = 2131230721;
 			
-			// aapt resource value: 0x7f080063
-			public const int action_bar_container = 2131230819;
+			// aapt resource value: 0x7f080071
+			public const int action_bar_container = 2131230833;
 			
-			// aapt resource value: 0x7f08005f
-			public const int action_bar_root = 2131230815;
+			// aapt resource value: 0x7f08006d
+			public const int action_bar_root = 2131230829;
 			
 			// aapt resource value: 0x7f080002
 			public const int action_bar_spinner = 2131230722;
 			
-			// aapt resource value: 0x7f080042
-			public const int action_bar_subtitle = 2131230786;
+			// aapt resource value: 0x7f080051
+			public const int action_bar_subtitle = 2131230801;
 			
-			// aapt resource value: 0x7f080041
-			public const int action_bar_title = 2131230785;
+			// aapt resource value: 0x7f080050
+			public const int action_bar_title = 2131230800;
 			
-			// aapt resource value: 0x7f08009b
-			public const int action_container = 2131230875;
+			// aapt resource value: 0x7f0800bb
+			public const int action_container = 2131230907;
 			
-			// aapt resource value: 0x7f080065
-			public const int action_context_bar = 2131230821;
+			// aapt resource value: 0x7f080073
+			public const int action_context_bar = 2131230835;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int action_divider = 2131230882;
+			// aapt resource value: 0x7f0800c2
+			public const int action_divider = 2131230914;
 			
-			// aapt resource value: 0x7f08009c
-			public const int action_image = 2131230876;
+			// aapt resource value: 0x7f0800bc
+			public const int action_image = 2131230908;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2826,29 +3135,29 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080004
 			public const int action_menu_presenter = 2131230724;
 			
-			// aapt resource value: 0x7f080061
-			public const int action_mode_bar = 2131230817;
+			// aapt resource value: 0x7f08006f
+			public const int action_mode_bar = 2131230831;
 			
-			// aapt resource value: 0x7f080060
-			public const int action_mode_bar_stub = 2131230816;
+			// aapt resource value: 0x7f08006e
+			public const int action_mode_bar_stub = 2131230830;
 			
-			// aapt resource value: 0x7f080043
-			public const int action_mode_close_button = 2131230787;
+			// aapt resource value: 0x7f080052
+			public const int action_mode_close_button = 2131230802;
 			
-			// aapt resource value: 0x7f08009d
-			public const int action_text = 2131230877;
+			// aapt resource value: 0x7f0800bd
+			public const int action_text = 2131230909;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int actions = 2131230891;
+			// aapt resource value: 0x7f0800cb
+			public const int actions = 2131230923;
 			
-			// aapt resource value: 0x7f080044
-			public const int activity_chooser_view_content = 2131230788;
+			// aapt resource value: 0x7f080053
+			public const int activity_chooser_view_content = 2131230803;
 			
 			// aapt resource value: 0x7f08001e
 			public const int add = 2131230750;
 			
-			// aapt resource value: 0x7f080058
-			public const int alertTitle = 2131230808;
+			// aapt resource value: 0x7f080066
+			public const int alertTitle = 2131230822;
 			
 			// aapt resource value: 0x7f08003d
 			public const int all = 2131230781;
@@ -2856,8 +3165,14 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080023
 			public const int always = 2131230755;
 			
+			// aapt resource value: 0x7f08008b
+			public const int annotationLayout = 2131230859;
+			
 			// aapt resource value: 0x7f08002f
 			public const int auto = 2131230767;
+			
+			// aapt resource value: 0x7f080088
+			public const int axisLayout = 2131230856;
 			
 			// aapt resource value: 0x7f080020
 			public const int beginning = 2131230752;
@@ -2865,11 +3180,17 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080028
 			public const int bottom = 2131230760;
 			
-			// aapt resource value: 0x7f08004b
-			public const int buttonPanel = 2131230795;
+			// aapt resource value: 0x7f0800d3
+			public const int bottom_labels = 2131230931;
 			
-			// aapt resource value: 0x7f08009f
-			public const int cancel_action = 2131230879;
+			// aapt resource value: 0x7f08005a
+			public const int buttonPanel = 2131230810;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int cancel_action = 2131230911;
+			
+			// aapt resource value: 0x7f080041
+			public const int category = 2131230785;
 			
 			// aapt resource value: 0x7f080030
 			public const int center = 2131230768;
@@ -2880,11 +3201,17 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080032
 			public const int center_vertical = 2131230770;
 			
-			// aapt resource value: 0x7f08005b
-			public const int checkbox = 2131230811;
+			// aapt resource value: 0x7f08008a
+			public const int chartBehaviorLayout = 2131230858;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int chronometer = 2131230887;
+			// aapt resource value: 0x7f08008e
+			public const int chartLegendScrollView = 2131230862;
+			
+			// aapt resource value: 0x7f080069
+			public const int checkbox = 2131230825;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int chronometer = 2131230919;
 			
 			// aapt resource value: 0x7f080039
 			public const int clip_horizontal = 2131230777;
@@ -2895,53 +3222,65 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080024
 			public const int collapseActionView = 2131230756;
 			
-			// aapt resource value: 0x7f080075
-			public const int container = 2131230837;
+			// aapt resource value: 0x7f080095
+			public const int container = 2131230869;
 			
-			// aapt resource value: 0x7f08004e
-			public const int contentPanel = 2131230798;
+			// aapt resource value: 0x7f0800d4
+			public const int content = 2131230932;
 			
-			// aapt resource value: 0x7f080076
-			public const int coordinator = 2131230838;
+			// aapt resource value: 0x7f08005d
+			public const int contentPanel = 2131230813;
 			
-			// aapt resource value: 0x7f080055
-			public const int custom = 2131230805;
+			// aapt resource value: 0x7f080096
+			public const int coordinator = 2131230870;
 			
-			// aapt resource value: 0x7f080054
-			public const int customPanel = 2131230804;
+			// aapt resource value: 0x7f08004b
+			public const int custom = 2131230795;
 			
-			// aapt resource value: 0x7f080062
-			public const int decor_content_parent = 2131230818;
+			// aapt resource value: 0x7f080063
+			public const int customPanel = 2131230819;
 			
-			// aapt resource value: 0x7f080047
-			public const int default_activity_button = 2131230791;
+			// aapt resource value: 0x7f080086
+			public const int dataMarkerLayout = 2131230854;
 			
-			// aapt resource value: 0x7f080078
-			public const int design_bottom_sheet = 2131230840;
+			// aapt resource value: 0x7f080042
+			public const int dateTime = 2131230786;
 			
-			// aapt resource value: 0x7f08007f
-			public const int design_menu_item_action_area = 2131230847;
+			// aapt resource value: 0x7f080043
+			public const int dateTimeCategory = 2131230787;
 			
-			// aapt resource value: 0x7f08007e
-			public const int design_menu_item_action_area_stub = 2131230846;
+			// aapt resource value: 0x7f080070
+			public const int decor_content_parent = 2131230832;
 			
-			// aapt resource value: 0x7f08007d
-			public const int design_menu_item_text = 2131230845;
+			// aapt resource value: 0x7f080056
+			public const int default_activity_button = 2131230806;
 			
-			// aapt resource value: 0x7f08007c
-			public const int design_navigation_view = 2131230844;
+			// aapt resource value: 0x7f080098
+			public const int design_bottom_sheet = 2131230872;
+			
+			// aapt resource value: 0x7f08009f
+			public const int design_menu_item_action_area = 2131230879;
+			
+			// aapt resource value: 0x7f08009e
+			public const int design_menu_item_action_area_stub = 2131230878;
+			
+			// aapt resource value: 0x7f08009d
+			public const int design_menu_item_text = 2131230877;
+			
+			// aapt resource value: 0x7f08009c
+			public const int design_navigation_view = 2131230876;
 			
 			// aapt resource value: 0x7f080012
 			public const int disableHome = 2131230738;
 			
-			// aapt resource value: 0x7f080066
-			public const int edit_query = 2131230822;
+			// aapt resource value: 0x7f080074
+			public const int edit_query = 2131230836;
 			
 			// aapt resource value: 0x7f080021
 			public const int end = 2131230753;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int end_padder = 2131230897;
+			// aapt resource value: 0x7f0800d1
+			public const int end_padder = 2131230929;
 			
 			// aapt resource value: 0x7f08002a
 			public const int enterAlways = 2131230762;
@@ -2952,11 +3291,11 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f08002c
 			public const int exitUntilCollapsed = 2131230764;
 			
-			// aapt resource value: 0x7f080045
-			public const int expand_activities_button = 2131230789;
+			// aapt resource value: 0x7f080054
+			public const int expand_activities_button = 2131230804;
 			
-			// aapt resource value: 0x7f08005a
-			public const int expanded_menu = 2131230810;
+			// aapt resource value: 0x7f080068
+			public const int expanded_menu = 2131230824;
 			
 			// aapt resource value: 0x7f08003b
 			public const int fill = 2131230779;
@@ -2970,6 +3309,18 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f08003f
 			public const int @fixed = 2131230783;
 			
+			// aapt resource value: 0x7f080048
+			public const int floating = 2131230792;
+			
+			// aapt resource value: 0x7f080046
+			public const int gone = 2131230790;
+			
+			// aapt resource value: 0x7f080083
+			public const int gridLineLayout = 2131230851;
+			
+			// aapt resource value: 0x7f0800d5
+			public const int gridLinesLayout = 2131230933;
+			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
 			
@@ -2977,46 +3328,76 @@ namespace RiverLevelApp.Droid
 			public const int homeAsUp = 2131230739;
 			
 			// aapt resource value: 0x7f080049
-			public const int icon = 2131230793;
+			public const int horizontal = 2131230793;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int icon_group = 2131230892;
+			// aapt resource value: 0x7f080058
+			public const int icon = 2131230808;
+			
+			// aapt resource value: 0x7f080091
+			public const int iconView = 2131230865;
+			
+			// aapt resource value: 0x7f0800cc
+			public const int icon_group = 2131230924;
 			
 			// aapt resource value: 0x7f080025
 			public const int ifRoom = 2131230757;
 			
-			// aapt resource value: 0x7f080046
-			public const int image = 2131230790;
+			// aapt resource value: 0x7f080055
+			public const int image = 2131230805;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int info = 2131230888;
+			// aapt resource value: 0x7f0800c8
+			public const int info = 2131230920;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f080074
-			public const int largeLabel = 2131230836;
+			// aapt resource value: 0x7f080092
+			public const int label = 2131230866;
+			
+			// aapt resource value: 0x7f080094
+			public const int largeLabel = 2131230868;
 			
 			// aapt resource value: 0x7f080034
 			public const int left = 2131230772;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int line1 = 2131230893;
+			// aapt resource value: 0x7f08008d
+			public const int legendHeader = 2131230861;
 			
-			// aapt resource value: 0x7f0800af
-			public const int line3 = 2131230895;
+			// aapt resource value: 0x7f080090
+			public const int legendItemsLayout = 2131230864;
+			
+			// aapt resource value: 0x7f080089
+			public const int legendLayout = 2131230857;
+			
+			// aapt resource value: 0x7f08008f
+			public const int legendScrollView = 2131230863;
+			
+			// aapt resource value: 0x7f08008c
+			public const int legendViewGroup = 2131230860;
+			
+			// aapt resource value: 0x7f0800cd
+			public const int line1 = 2131230925;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int line3 = 2131230927;
 			
 			// aapt resource value: 0x7f08000f
 			public const int listMode = 2131230735;
 			
-			// aapt resource value: 0x7f080048
-			public const int list_item = 2131230792;
+			// aapt resource value: 0x7f080057
+			public const int list_item = 2131230807;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int masked = 2131230901;
+			// aapt resource value: 0x7f080044
+			public const int logarithmic = 2131230788;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int media_actions = 2131230881;
+			// aapt resource value: 0x7f0800d9
+			public const int masked = 2131230937;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int media_actions = 2131230913;
+			
+			// aapt resource value: 0x7f08004c
+			public const int metro = 2131230796;
 			
 			// aapt resource value: 0x7f080022
 			public const int middle = 2131230754;
@@ -3024,86 +3405,89 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f08003e
 			public const int mini = 2131230782;
 			
-			// aapt resource value: 0x7f08008d
-			public const int mr_art = 2131230861;
+			// aapt resource value: 0x7f0800ad
+			public const int mr_art = 2131230893;
 			
-			// aapt resource value: 0x7f080082
-			public const int mr_chooser_list = 2131230850;
+			// aapt resource value: 0x7f0800a2
+			public const int mr_chooser_list = 2131230882;
 			
-			// aapt resource value: 0x7f080085
-			public const int mr_chooser_route_desc = 2131230853;
+			// aapt resource value: 0x7f0800a5
+			public const int mr_chooser_route_desc = 2131230885;
 			
-			// aapt resource value: 0x7f080083
-			public const int mr_chooser_route_icon = 2131230851;
+			// aapt resource value: 0x7f0800a3
+			public const int mr_chooser_route_icon = 2131230883;
 			
-			// aapt resource value: 0x7f080084
-			public const int mr_chooser_route_name = 2131230852;
+			// aapt resource value: 0x7f0800a4
+			public const int mr_chooser_route_name = 2131230884;
 			
-			// aapt resource value: 0x7f080081
-			public const int mr_chooser_title = 2131230849;
+			// aapt resource value: 0x7f0800a1
+			public const int mr_chooser_title = 2131230881;
 			
-			// aapt resource value: 0x7f08008a
-			public const int mr_close = 2131230858;
+			// aapt resource value: 0x7f0800aa
+			public const int mr_close = 2131230890;
 			
-			// aapt resource value: 0x7f080090
-			public const int mr_control_divider = 2131230864;
+			// aapt resource value: 0x7f0800b0
+			public const int mr_control_divider = 2131230896;
 			
-			// aapt resource value: 0x7f080096
-			public const int mr_control_playback_ctrl = 2131230870;
+			// aapt resource value: 0x7f0800b6
+			public const int mr_control_playback_ctrl = 2131230902;
 			
-			// aapt resource value: 0x7f080099
-			public const int mr_control_subtitle = 2131230873;
+			// aapt resource value: 0x7f0800b9
+			public const int mr_control_subtitle = 2131230905;
 			
-			// aapt resource value: 0x7f080098
-			public const int mr_control_title = 2131230872;
+			// aapt resource value: 0x7f0800b8
+			public const int mr_control_title = 2131230904;
 			
-			// aapt resource value: 0x7f080097
-			public const int mr_control_title_container = 2131230871;
+			// aapt resource value: 0x7f0800b7
+			public const int mr_control_title_container = 2131230903;
 			
-			// aapt resource value: 0x7f08008b
-			public const int mr_custom_control = 2131230859;
+			// aapt resource value: 0x7f0800ab
+			public const int mr_custom_control = 2131230891;
 			
-			// aapt resource value: 0x7f08008c
-			public const int mr_default_control = 2131230860;
+			// aapt resource value: 0x7f0800ac
+			public const int mr_default_control = 2131230892;
 			
-			// aapt resource value: 0x7f080087
-			public const int mr_dialog_area = 2131230855;
+			// aapt resource value: 0x7f0800a7
+			public const int mr_dialog_area = 2131230887;
 			
-			// aapt resource value: 0x7f080086
-			public const int mr_expandable_area = 2131230854;
+			// aapt resource value: 0x7f0800a6
+			public const int mr_expandable_area = 2131230886;
 			
-			// aapt resource value: 0x7f08009a
-			public const int mr_group_expand_collapse = 2131230874;
+			// aapt resource value: 0x7f0800ba
+			public const int mr_group_expand_collapse = 2131230906;
 			
-			// aapt resource value: 0x7f08008e
-			public const int mr_media_main_control = 2131230862;
+			// aapt resource value: 0x7f0800ae
+			public const int mr_media_main_control = 2131230894;
 			
-			// aapt resource value: 0x7f080089
-			public const int mr_name = 2131230857;
+			// aapt resource value: 0x7f0800a9
+			public const int mr_name = 2131230889;
 			
-			// aapt resource value: 0x7f08008f
-			public const int mr_playback_control = 2131230863;
+			// aapt resource value: 0x7f0800af
+			public const int mr_playback_control = 2131230895;
 			
-			// aapt resource value: 0x7f080088
-			public const int mr_title_bar = 2131230856;
+			// aapt resource value: 0x7f0800a8
+			public const int mr_title_bar = 2131230888;
 			
-			// aapt resource value: 0x7f080091
-			public const int mr_volume_control = 2131230865;
+			// aapt resource value: 0x7f0800b1
+			public const int mr_volume_control = 2131230897;
 			
-			// aapt resource value: 0x7f080092
-			public const int mr_volume_group_list = 2131230866;
+			// aapt resource value: 0x7f0800b2
+			public const int mr_volume_group_list = 2131230898;
 			
-			// aapt resource value: 0x7f080094
-			public const int mr_volume_item_icon = 2131230868;
+			// aapt resource value: 0x7f0800b4
+			public const int mr_volume_item_icon = 2131230900;
 			
-			// aapt resource value: 0x7f080095
-			public const int mr_volume_slider = 2131230869;
+			// aapt resource value: 0x7f0800b5
+			public const int mr_volume_slider = 2131230901;
 			
 			// aapt resource value: 0x7f080019
 			public const int multiply = 2131230745;
 			
-			// aapt resource value: 0x7f08007b
-			public const int navigation_header_container = 2131230843;
+			// aapt resource value: 0x7f08004d
+			public const int natural = 2131230797;
+			
+			// aapt resource value: 0x7f08009b
+			public const int navigation_header_container = 2131230875;
 			
 			// aapt resource value: 0x7f080026
 			public const int never = 2131230758;
@@ -3114,23 +3498,29 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080010
 			public const int normal = 2131230736;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int notification_background = 2131230890;
+			// aapt resource value: 0x7f0800ca
+			public const int notification_background = 2131230922;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int notification_main_column = 2131230884;
+			// aapt resource value: 0x7f0800c4
+			public const int notification_main_column = 2131230916;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int notification_main_column_container = 2131230883;
+			// aapt resource value: 0x7f0800c3
+			public const int notification_main_column_container = 2131230915;
+			
+			// aapt resource value: 0x7f080045
+			public const int numerical = 2131230789;
 			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
 			
-			// aapt resource value: 0x7f08004d
-			public const int parentPanel = 2131230797;
+			// aapt resource value: 0x7f08005c
+			public const int parentPanel = 2131230812;
 			
 			// aapt resource value: 0x7f080038
 			public const int pin = 2131230776;
+			
+			// aapt resource value: 0x7f08004e
+			public const int pineapple = 2131230798;
 			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
@@ -3138,17 +3528,20 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7f08005d
-			public const int radio = 2131230813;
+			// aapt resource value: 0x7f08006b
+			public const int radio = 2131230827;
 			
 			// aapt resource value: 0x7f080035
 			public const int right = 2131230773;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int right_icon = 2131230889;
+			// aapt resource value: 0x7f0800c9
+			public const int right_icon = 2131230921;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int right_side = 2131230885;
+			// aapt resource value: 0x7f0800c5
+			public const int right_side = 2131230917;
+			
+			// aapt resource value: 0x7f080081
+			public const int rootLayout = 2131230849;
 			
 			// aapt resource value: 0x7f08001a
 			public const int screen = 2131230746;
@@ -3156,53 +3549,56 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f08002d
 			public const int scroll = 2131230765;
 			
-			// aapt resource value: 0x7f080053
-			public const int scrollIndicatorDown = 2131230803;
+			// aapt resource value: 0x7f080062
+			public const int scrollIndicatorDown = 2131230818;
 			
-			// aapt resource value: 0x7f08004f
-			public const int scrollIndicatorUp = 2131230799;
+			// aapt resource value: 0x7f08005e
+			public const int scrollIndicatorUp = 2131230814;
 			
-			// aapt resource value: 0x7f080050
-			public const int scrollView = 2131230800;
+			// aapt resource value: 0x7f08005f
+			public const int scrollView = 2131230815;
 			
 			// aapt resource value: 0x7f080040
 			public const int scrollable = 2131230784;
 			
-			// aapt resource value: 0x7f080068
-			public const int search_badge = 2131230824;
+			// aapt resource value: 0x7f080076
+			public const int search_badge = 2131230838;
 			
-			// aapt resource value: 0x7f080067
-			public const int search_bar = 2131230823;
+			// aapt resource value: 0x7f080075
+			public const int search_bar = 2131230837;
 			
-			// aapt resource value: 0x7f080069
-			public const int search_button = 2131230825;
+			// aapt resource value: 0x7f080077
+			public const int search_button = 2131230839;
 			
-			// aapt resource value: 0x7f08006e
-			public const int search_close_btn = 2131230830;
+			// aapt resource value: 0x7f08007c
+			public const int search_close_btn = 2131230844;
+			
+			// aapt resource value: 0x7f080078
+			public const int search_edit_frame = 2131230840;
+			
+			// aapt resource value: 0x7f08007e
+			public const int search_go_btn = 2131230846;
+			
+			// aapt resource value: 0x7f080079
+			public const int search_mag_icon = 2131230841;
+			
+			// aapt resource value: 0x7f08007a
+			public const int search_plate = 2131230842;
+			
+			// aapt resource value: 0x7f08007b
+			public const int search_src_text = 2131230843;
+			
+			// aapt resource value: 0x7f08007f
+			public const int search_voice_btn = 2131230847;
+			
+			// aapt resource value: 0x7f080080
+			public const int select_dialog_listview = 2131230848;
+			
+			// aapt resource value: 0x7f080085
+			public const int seriesLayout = 2131230853;
 			
 			// aapt resource value: 0x7f08006a
-			public const int search_edit_frame = 2131230826;
-			
-			// aapt resource value: 0x7f080070
-			public const int search_go_btn = 2131230832;
-			
-			// aapt resource value: 0x7f08006b
-			public const int search_mag_icon = 2131230827;
-			
-			// aapt resource value: 0x7f08006c
-			public const int search_plate = 2131230828;
-			
-			// aapt resource value: 0x7f08006d
-			public const int search_src_text = 2131230829;
-			
-			// aapt resource value: 0x7f080071
-			public const int search_voice_btn = 2131230833;
-			
-			// aapt resource value: 0x7f080072
-			public const int select_dialog_listview = 2131230834;
-			
-			// aapt resource value: 0x7f08005c
-			public const int shortcut = 2131230812;
+			public const int shortcut = 2131230826;
 			
 			// aapt resource value: 0x7f080015
 			public const int showCustom = 2131230741;
@@ -3213,23 +3609,23 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int sliding_tabs = 2131230898;
+			// aapt resource value: 0x7f0800d7
+			public const int sliding_tabs = 2131230935;
 			
-			// aapt resource value: 0x7f080073
-			public const int smallLabel = 2131230835;
+			// aapt resource value: 0x7f080093
+			public const int smallLabel = 2131230867;
 			
-			// aapt resource value: 0x7f08007a
-			public const int snackbar_action = 2131230842;
+			// aapt resource value: 0x7f08009a
+			public const int snackbar_action = 2131230874;
 			
-			// aapt resource value: 0x7f080079
-			public const int snackbar_text = 2131230841;
+			// aapt resource value: 0x7f080099
+			public const int snackbar_text = 2131230873;
 			
 			// aapt resource value: 0x7f08002e
 			public const int snap = 2131230766;
 			
-			// aapt resource value: 0x7f08004c
-			public const int spacer = 2131230796;
+			// aapt resource value: 0x7f08005b
+			public const int spacer = 2131230811;
 			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
@@ -3246,32 +3642,38 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080036
 			public const int start = 2131230774;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int status_bar_latest_event_content = 2131230880;
+			// aapt resource value: 0x7f0800c0
+			public const int status_bar_latest_event_content = 2131230912;
 			
-			// aapt resource value: 0x7f08005e
-			public const int submenuarrow = 2131230814;
+			// aapt resource value: 0x7f080084
+			public const int stripLinesLayout = 2131230852;
 			
-			// aapt resource value: 0x7f08006f
-			public const int submit_area = 2131230831;
+			// aapt resource value: 0x7f08006c
+			public const int submenuarrow = 2131230828;
+			
+			// aapt resource value: 0x7f08007d
+			public const int submit_area = 2131230845;
 			
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int text = 2131230896;
+			// aapt resource value: 0x7f080087
+			public const int technicalIndicatorLayout = 2131230855;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int text2 = 2131230894;
+			// aapt resource value: 0x7f0800d0
+			public const int text = 2131230928;
 			
-			// aapt resource value: 0x7f080052
-			public const int textSpacerNoButtons = 2131230802;
+			// aapt resource value: 0x7f0800ce
+			public const int text2 = 2131230926;
 			
-			// aapt resource value: 0x7f080051
-			public const int textSpacerNoTitle = 2131230801;
+			// aapt resource value: 0x7f080061
+			public const int textSpacerNoButtons = 2131230817;
 			
-			// aapt resource value: 0x7f080080
-			public const int text_input_password_toggle = 2131230848;
+			// aapt resource value: 0x7f080060
+			public const int textSpacerNoTitle = 2131230816;
+			
+			// aapt resource value: 0x7f0800a0
+			public const int text_input_password_toggle = 2131230880;
 			
 			// aapt resource value: 0x7f08000c
 			public const int textinput_counter = 2131230732;
@@ -3279,29 +3681,41 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f08000d
 			public const int textinput_error = 2131230733;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int time = 2131230886;
+			// aapt resource value: 0x7f0800d6
+			public const int thumbLayout = 2131230934;
 			
-			// aapt resource value: 0x7f08004a
-			public const int title = 2131230794;
+			// aapt resource value: 0x7f0800c6
+			public const int time = 2131230918;
 			
 			// aapt resource value: 0x7f080059
-			public const int titleDividerNoCustom = 2131230809;
+			public const int title = 2131230809;
 			
-			// aapt resource value: 0x7f080057
-			public const int title_template = 2131230807;
+			// aapt resource value: 0x7f080067
+			public const int titleDividerNoCustom = 2131230823;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int toolbar = 2131230899;
+			// aapt resource value: 0x7f080082
+			public const int titleLayout = 2131230850;
+			
+			// aapt resource value: 0x7f080065
+			public const int title_template = 2131230821;
+			
+			// aapt resource value: 0x7f08004f
+			public const int tomatoSpectrum = 2131230799;
+			
+			// aapt resource value: 0x7f0800d8
+			public const int toolbar = 2131230936;
 			
 			// aapt resource value: 0x7f080029
 			public const int top = 2131230761;
 			
-			// aapt resource value: 0x7f080056
-			public const int topPanel = 2131230806;
+			// aapt resource value: 0x7f080064
+			public const int topPanel = 2131230820;
 			
-			// aapt resource value: 0x7f080077
-			public const int touch_outside = 2131230839;
+			// aapt resource value: 0x7f0800d2
+			public const int top_labels = 2131230930;
+			
+			// aapt resource value: 0x7f080097
+			public const int touch_outside = 2131230871;
 			
 			// aapt resource value: 0x7f08000a
 			public const int transition_current_scene = 2131230730;
@@ -3315,14 +3729,17 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f080018
 			public const int useLogo = 2131230744;
 			
+			// aapt resource value: 0x7f08004a
+			public const int vertical = 2131230794;
+			
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int visible = 2131230900;
+			// aapt resource value: 0x7f080047
+			public const int visible = 2131230791;
 			
-			// aapt resource value: 0x7f080093
-			public const int volume_item_container = 2131230867;
+			// aapt resource value: 0x7f0800b3
+			public const int volume_item_container = 2131230899;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;
@@ -3493,127 +3910,139 @@ namespace RiverLevelApp.Droid
 			public const int abc_select_dialog_material = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int design_bottom_navigation_item = 2130903067;
+			public const int chart_layout = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
-			public const int design_bottom_sheet_dialog = 2130903068;
+			public const int chart_legend = 2130903068;
 			
 			// aapt resource value: 0x7f03001d
-			public const int design_layout_snackbar = 2130903069;
+			public const int chart_legend_item = 2130903069;
 			
 			// aapt resource value: 0x7f03001e
-			public const int design_layout_snackbar_include = 2130903070;
+			public const int design_bottom_navigation_item = 2130903070;
 			
 			// aapt resource value: 0x7f03001f
-			public const int design_layout_tab_icon = 2130903071;
+			public const int design_bottom_sheet_dialog = 2130903071;
 			
 			// aapt resource value: 0x7f030020
-			public const int design_layout_tab_text = 2130903072;
+			public const int design_layout_snackbar = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int design_menu_item_action_area = 2130903073;
+			public const int design_layout_snackbar_include = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int design_navigation_item = 2130903074;
+			public const int design_layout_tab_icon = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int design_navigation_item_header = 2130903075;
+			public const int design_layout_tab_text = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int design_navigation_item_separator = 2130903076;
+			public const int design_menu_item_action_area = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int design_navigation_item_subheader = 2130903077;
+			public const int design_navigation_item = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int design_navigation_menu = 2130903078;
+			public const int design_navigation_item_header = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int design_navigation_menu_item = 2130903079;
+			public const int design_navigation_item_separator = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int design_text_input_password_icon = 2130903080;
+			public const int design_navigation_item_subheader = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int mr_chooser_dialog = 2130903081;
+			public const int design_navigation_menu = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int mr_chooser_list_item = 2130903082;
+			public const int design_navigation_menu_item = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int mr_controller_material_dialog_b = 2130903083;
+			public const int design_text_input_password_icon = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int mr_controller_volume_item = 2130903084;
+			public const int mr_chooser_dialog = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int mr_playback_control = 2130903085;
+			public const int mr_chooser_list_item = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int mr_volume_control = 2130903086;
+			public const int mr_controller_material_dialog_b = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_action = 2130903087;
+			public const int mr_controller_volume_item = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_action_tombstone = 2130903088;
+			public const int mr_playback_control = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_media_action = 2130903089;
+			public const int mr_volume_control = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_media_cancel_action = 2130903090;
+			public const int notification_action = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_big_media = 2130903091;
+			public const int notification_action_tombstone = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media_custom = 2130903092;
+			public const int notification_media_action = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_narrow = 2130903093;
+			public const int notification_media_cancel_action = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media_narrow_custom = 2130903094;
+			public const int notification_template_big_media = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_custom_big = 2130903095;
+			public const int notification_template_big_media_custom = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_icon_group = 2130903096;
+			public const int notification_template_big_media_narrow = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_lines_media = 2130903097;
+			public const int notification_template_big_media_narrow_custom = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_media = 2130903098;
+			public const int notification_template_custom_big = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_media_custom = 2130903099;
+			public const int notification_template_icon_group = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_part_chronometer = 2130903100;
+			public const int notification_template_lines_media = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_part_time = 2130903101;
+			public const int notification_template_media = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_item_material = 2130903102;
+			public const int notification_template_media_custom = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_multichoice_material = 2130903103;
+			public const int notification_template_part_chronometer = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_singlechoice_material = 2130903104;
+			public const int notification_template_part_time = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int support_simple_spinner_dropdown_item = 2130903105;
+			public const int range_navigator_layout = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int Tabbar = 2130903106;
+			public const int select_dialog_item_material = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int Toolbar = 2130903107;
+			public const int select_dialog_multichoice_material = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int select_dialog_singlechoice_material = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int support_simple_spinner_dropdown_item = 2130903109;
+			
+			// aapt resource value: 0x7f030046
+			public const int Tabbar = 2130903110;
+			
+			// aapt resource value: 0x7f030047
+			public const int Toolbar = 2130903111;
 			
 			static Layout()
 			{
@@ -3808,11 +4237,38 @@ namespace RiverLevelApp.Droid
 			// aapt resource value: 0x7f09003d
 			public const int path_password_strike_through = 2131296317;
 			
+			// aapt resource value: 0x7f09003f
+			public const int q = 2131296319;
+			
+			// aapt resource value: 0x7f09003e
+			public const int quarter = 2131296318;
+			
 			// aapt resource value: 0x7f090028
 			public const int search_menu_title = 2131296296;
 			
+			// aapt resource value: 0x7f090045
+			public const int sfchart_close_label = 2131296325;
+			
+			// aapt resource value: 0x7f090042
+			public const int sfchart_high_label = 2131296322;
+			
+			// aapt resource value: 0x7f090043
+			public const int sfchart_low_label = 2131296323;
+			
+			// aapt resource value: 0x7f090044
+			public const int sfchart_open_label = 2131296324;
+			
+			// aapt resource value: 0x7f090046
+			public const int sfchart_others_label = 2131296326;
+			
 			// aapt resource value: 0x7f090029
 			public const int status_bar_notification_info_overflow = 2131296297;
+			
+			// aapt resource value: 0x7f090041
+			public const int w = 2131296321;
+			
+			// aapt resource value: 0x7f090040
+			public const int week = 2131296320;
 			
 			static String()
 			{
@@ -6541,6 +6997,164 @@ namespace RiverLevelApp.Droid
 			
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
+			
+			public static int[] SfChart = new int[] {
+					2130772309,
+					2130772310,
+					2130772311,
+					2130772312,
+					2130772313,
+					2130772314,
+					2130772315,
+					2130772316,
+					2130772317,
+					2130772318,
+					2130772319,
+					2130772320,
+					2130772321,
+					2130772322,
+					2130772323,
+					2130772324,
+					2130772325,
+					2130772326,
+					2130772327,
+					2130772328,
+					2130772329,
+					2130772330,
+					2130772331,
+					2130772332,
+					2130772333,
+					2130772334,
+					2130772335,
+					2130772336,
+					2130772337,
+					2130772338,
+					2130772339,
+					2130772340,
+					2130772341,
+					2130772342,
+					2130772343,
+					2130772344,
+					2130772345,
+					2130772346,
+					2130772347};
+			
+			// aapt resource value: 36
+			public const int SfChart_colorPalette = 36;
+			
+			// aapt resource value: 38
+			public const int SfChart_enableTrackball = 38;
+			
+			// aapt resource value: 37
+			public const int SfChart_enableZooming = 37;
+			
+			// aapt resource value: 26
+			public const int SfChart_legendDockPosition = 26;
+			
+			// aapt resource value: 20
+			public const int SfChart_legendIconHeight = 20;
+			
+			// aapt resource value: 21
+			public const int SfChart_legendIconWidth = 21;
+			
+			// aapt resource value: 22
+			public const int SfChart_legendItemMarginBottom = 22;
+			
+			// aapt resource value: 23
+			public const int SfChart_legendItemMarginLeft = 23;
+			
+			// aapt resource value: 24
+			public const int SfChart_legendItemMarginRight = 24;
+			
+			// aapt resource value: 25
+			public const int SfChart_legendItemMarginTop = 25;
+			
+			// aapt resource value: 27
+			public const int SfChart_legendOrientation = 27;
+			
+			// aapt resource value: 19
+			public const int SfChart_legendTitleText = 19;
+			
+			// aapt resource value: 18
+			public const int SfChart_legendVisibility = 18;
+			
+			// aapt resource value: 31
+			public const int SfChart_titleBackgroundColor = 31;
+			
+			// aapt resource value: 29
+			public const int SfChart_titleColor = 29;
+			
+			// aapt resource value: 35
+			public const int SfChart_titlePaddingBottom = 35;
+			
+			// aapt resource value: 32
+			public const int SfChart_titlePaddingLeft = 32;
+			
+			// aapt resource value: 33
+			public const int SfChart_titlePaddingRight = 33;
+			
+			// aapt resource value: 34
+			public const int SfChart_titlePaddingTop = 34;
+			
+			// aapt resource value: 30
+			public const int SfChart_titleSize = 30;
+			
+			// aapt resource value: 28
+			public const int SfChart_titleText = 28;
+			
+			// aapt resource value: 0
+			public const int SfChart_xAxis = 0;
+			
+			// aapt resource value: 12
+			public const int SfChart_xAxisLineColor = 12;
+			
+			// aapt resource value: 13
+			public const int SfChart_xAxisLineWidth = 13;
+			
+			// aapt resource value: 10
+			public const int SfChart_xAxisMajorGridLineColor = 10;
+			
+			// aapt resource value: 11
+			public const int SfChart_xAxisMajorGridLineWidth = 11;
+			
+			// aapt resource value: 5
+			public const int SfChart_xAxisTitleBackgroundColor = 5;
+			
+			// aapt resource value: 4
+			public const int SfChart_xAxisTitleSize = 4;
+			
+			// aapt resource value: 2
+			public const int SfChart_xAxisTitleText = 2;
+			
+			// aapt resource value: 3
+			public const int SfChart_xAxisTitleTextColor = 3;
+			
+			// aapt resource value: 1
+			public const int SfChart_yAxis = 1;
+			
+			// aapt resource value: 16
+			public const int SfChart_yAxisLineColor = 16;
+			
+			// aapt resource value: 17
+			public const int SfChart_yAxisLineWidth = 17;
+			
+			// aapt resource value: 14
+			public const int SfChart_yAxisMajorGridLineColor = 14;
+			
+			// aapt resource value: 15
+			public const int SfChart_yAxisMajorGridLineWidth = 15;
+			
+			// aapt resource value: 9
+			public const int SfChart_yAxisTitleBackgroundColor = 9;
+			
+			// aapt resource value: 8
+			public const int SfChart_yAxisTitleSize = 8;
+			
+			// aapt resource value: 6
+			public const int SfChart_yAxisTitleText = 6;
+			
+			// aapt resource value: 7
+			public const int SfChart_yAxisTitleTextColor = 7;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
